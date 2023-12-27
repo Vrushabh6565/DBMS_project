@@ -4,7 +4,7 @@ import mysql.connector
 from mysql.connector import Error
 from tkcalendar import Calendar
 
-
+#test
 
 connection = mysql.connector.connect( host = "localhost" , user = "" , password = "" , database = "Exam" )
 cursor = connection.cursor()
